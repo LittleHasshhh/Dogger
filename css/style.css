@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+    /*General*/
+
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.middle {
+    width: 60%;
+    margin: auto;
+}
+
+    /*Nav Bar*/
+
+header {
+    background-color: #f8f9fa;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a {
+    color: #999999;
+    text-decoration: none;
+    transition: all 350ms;
+}
+ul {
+    display: flex;
+    gap: 25px;
+    font-weight: bold;
+    list-style: none;
+}
+ul li a:hover {
+    color: #4a4a4b;
+    transition: all 400ms;
+}
+.logo {
+    font-size: 1.7rem;
+    color: black;
+    font-weight: 500;
+}
+span {
+    color: #ff9900;
+}
+
+    /*Header*/
+
+header .middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.doggie {
+    width: 300px;
+    height: 400px;
+}
+h1 {
+    font-size: 4rem;
+    font-weight: lighter;
+    margin: 0;
+}
+header p {
+    color: #999999;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+    /*Main Page*/
+
+.profil {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.profil h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+}
+.profil p {
+    color: #999999;
+    margin: 0;
+    font-size: 1.5;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    margin-top: 80px;
+}
+section img {
+    width: 400px;
+    height: 290px;
+    box-shadow: 8px 8px 1px #a2c0be;
+}
+
+    /*Right*/
+
+.right {
+    text-align: end;
+}
+
+.right h3{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.right p {
+    color: #999999;
+    margin-bottom: 50px;
+
+}
+.right a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #a2c0be;
+    border-radius: 90px;
+    transition: all 550ms;
+}
+.right a:hover {
+    background-color: black;
+    transition: all 550ms;
+}
+
+    /*Left*/
+
+.left {
+    text-align: start;
+}
+.left h3{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.left p {
+    color: #999999;
+    margin-bottom: 50px;
+}
+.left a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #a2c0be;
+    border-radius: 90px;
+    transition: all 550ms;
+}
+.left a:hover {
+    background-color: black;
+    transition: all 550ms;
+}
+
+    /*Footer*/
+
+footer{
+    height: 75px;
+    background-color: #4a4a4b;
+    display: flex;
+    margin-top: 70px;
+}
+footer div p {
+    color: white;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+}
